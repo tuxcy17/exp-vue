@@ -6,9 +6,9 @@ Vue.use(<any>Vuetify);
 Vue.use(<any>Vuex);
 
 import {bToolbar} from './comps/Toolbar'
-import {vNavigation} from './comps/Navigation'
+import {bNavigation} from './comps/Navigation'
 import {app} from './comps/Hello'
 
-if (!vNavigation && !bToolbar && !app) {
+if (!bToolbar && !bNavigation && !app) {
     console.error("unable to load components");
 }
